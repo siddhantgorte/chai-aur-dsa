@@ -1,0 +1,32 @@
+Video Link : https://youtu.be/eOSk6WDYqr0?si=q2FGl4DhuKS8q3wr
+
+✨Types of importing numpy
+1. import numpy
+2. import numpy as np
+3. from numpy import *
+
+✨Create an array using numpy
+
+    arrayName = array([1, 2 ,3, 4])
+
+    arrayName = array([1, 2 ,3, 4], float)
+
+✨Arithematic creation of numbers with a specified partition
+
+    linspace(startingNumber, endingNumber, noOfPartitions,)
+
+✨Arithematic creation of numbers with a specified difference
+
+    arange(startingNumber, endingNumber, difference)
+
+✨Create a array with the specified value and length
+
+    full(size, value)
+
+✨
+
+✨
+
+✨
+
+✨

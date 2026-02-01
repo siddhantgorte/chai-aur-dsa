@@ -1,0 +1,62 @@
+Video Link : https://youtu.be/eOSk6WDYqr0?si=q2FGl4DhuKS8q3wr
+
+✨Types of importing array
+1. import array
+2. import array as a
+3. from array import *
+
+✨Declare an array
+
+    arrayName = array('type code', list)
+
+✨Type code
+i = int
+u = unicode char
+f or d = float
+
+    use val.typecode to know the typecode of  array
+
+✨Length of an array
+
+    len(arrayName)
+
+✨Reverse an array
+
+    arrayName.reverse()
+
+    arr = arrayName[::-1]
+
+✨Add value to an array
+
+    arrayName.insert(index, value)
+
+✨Append value to an array
+
+    arrayName.append(value)
+
+✨Replace element at an index
+
+    arrayName[index] = newValue
+
+✨Copy one array into another
+    array2 = array(array1.typecode, (x for x in array1))
+
+✨Delete an element from an array
+    
+    arrayName.pop(index)
+    
+    arrayName.pop(): Deletes the element at the last index
+
+    arrayName.remove(value): Deletes the element with the value
+
+✨Slicing in array
+
+    a = arrayName[startIndex : endIndex]
+        Element at lastIndex will be not included
+
+    b = arrayName[startIndex : -3]
+        Element at last 3 index will be not included  
+
+✨Find index of an element
+
+    arrayName.index(value)
